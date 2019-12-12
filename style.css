@@ -17,6 +17,7 @@ body {
     width: 900px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .container .card {
@@ -31,10 +32,11 @@ body {
     text-align: center;
     overflow: hidden;
     transition: 0.5s;
+    margin: 15px;
 }
 
 .container .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-25px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
 }
 
